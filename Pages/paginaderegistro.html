@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Página de Registro</title>
+<link href="style/style.css" rel="stylesheet">
+<style>
+    body{
+        background: url(images/bgimagem.jpg);}
+</style>
+</head>
+<body>
+    <div class="caixa1">
+        <form method="post" action="registro.php">
+            <h1> <u>REGISTRO</u></h1>
+            <h3>Preencha os seguintes campos:</h3>
+            <table>
+                <tr>
+                    <td>
+                        <h5>Nome:</h5>
+                    </td>
+                    <td style="font-size:20px;"><input class="textbox" type="text" name="nome" maxlength="50" size="40"
+                            id="nome" placeholder="O seu nome" required>*</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Apelido:</h5>
+                    </td>
+                    <td style="font-size:20px;"><input class="textbox" type="text" name="apelido" maxlength="50" size="40"
+                            id="apelido" placeholder="O seu apelido" required>*</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Username:</h5>
+                    </td>
+                    <td style="font-size:20px;"><input class="textbox" type="text" name="user_name" maxlength="80"
+                            size="40" id="user_name" placeholder="username" required>*</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>E-mail:</h5>
+                    </td>
+                    <td style="font-size:20px;"><input class="textbox" name="email" maxlength="40" size="40" id="email" placeholder="O seu e-mail" required>*</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5>Password:</h5>
+                    </td>
+                    <td style="font-size:20px;"><input class="textbox" type="password" name="password" maxlength="80"
+                            size="40" id="password" placeholder="senha" required>*</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>(*) Os campos marcados com um asterisco são obrigatórios.</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div class="botoes">
+                <input type="submit" name="Botao enviar" class="botao cinza" value="Registrar">
+            </div>
+            <p> Clique <a href="login_page.php"><b>aqui</b></a> para voltar a página de login. </p>
+        </form>
+    </div>
+    </body>
+    </html>
