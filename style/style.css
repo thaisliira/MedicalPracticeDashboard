@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+
+h2, h1 {
+	font-family: 'Dosis', arial;
+	text-align: center;
+}
+
+h5 {
+    font-size: 23px;
+
+}
+
+p, a{
+	text-align: center;
+	color:white;
+}
+.caixa1{
+	text-align: center;
+	font-family: 'Dosis', arial;
+	font-size: 16px;
+    margin: auto;
+    margin-left: 380px;
+	padding: 25px;
+	padding-bottom: 40px;
+	width: 500px;
+	border-radius: 11px 11px 11px 11px;
+	-moz-border-radius: 11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
+	color: #ffffff;
+	background-color:rgba(74, 11, 134, 0.795);
+}
+
+th, td {
+	padding: 10px;
+	border-bottom: 1px solid white;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(222, 206, 238);
+}
+
+.logo {
+	text-align: center;
+}
+
+#botao-form {
+	float: right;
+}
