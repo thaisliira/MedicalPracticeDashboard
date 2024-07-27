@@ -1,4 +1,4 @@
-## 👨‍⚕️ Medical Practice Dashboard
+## 👩‍⚕️ Medical Practice Dashboard
 
 A web application tailored for medical professionals to manage their daily tasks efficiently. Key features include:
 - 📅 Scheduling and calendar management
